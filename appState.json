@@ -22,9 +22,8 @@
         "children": [],
         "isRemovable": true,
         "filePath": "indunilCalifornia/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
         "config": {
-          "runtime": "nodejs8.10",
+          "runtime": "nodejs10.x",
           "handler": "handler",
           "timeout": 60,
           "memory": 128,
@@ -38,7 +37,6 @@
         ]
       }
     },
-    "deletedFiles": [],
     "rootNode": "86667733-300d-4591-b82e-7b1cf96aa109",
     "openFiles": [
       "d8c54afd-75f3-4c39-a35d-0fb494f3c8c1"
@@ -67,7 +65,7 @@
     },
     "customTemplate": {
       "dialect": null,
-      "definitions": {}
+      "definitions": null
     },
     "envVariables": [
       {
@@ -90,7 +88,7 @@
     "projectRegion": "us-west-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1561372292234
+    "lastSave": 1576650904157
   },
   "VCS_STATE": {
     "provider": "GitHub",
